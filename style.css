@@ -47,7 +47,7 @@ nav a:hover {
 
 nav a.nav-active {
   color: #ffffff;
-  border-bottom: 2px solid #c9a959;
+  border-bottom: 2px solid #f5c518;
 }
 
 /* Hero */
@@ -63,7 +63,7 @@ nav a.nav-active {
   font-size: clamp(2.2rem, 5vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 12px;
-  color: #c9a959;
+  color: #f5c518;
 }
 
 .subtitle {
@@ -127,7 +127,7 @@ p {
 /* Button */
 .btn {
   display: inline-block;
-  background: #c9a959;
+  background: #f5c518;
   color: #1a3a8a;
   text-decoration: none;
   font-weight: 600;
@@ -140,7 +140,7 @@ p {
 }
 
 .btn:hover {
-  background: #b8953e;
+  background: #ddb115;
   transform: translateY(-1px);
 }
 
