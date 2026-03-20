@@ -17,7 +17,7 @@ body {
 
 /* Navigation */
 header {
-  background: #1a1a2e;
+  background: #1a3a8a;
   padding: 0;
 }
 
@@ -52,7 +52,7 @@ nav a.nav-active {
 
 /* Hero */
 .hero {
-  background: #1a1a2e;
+  background: #1a3a8a;
   color: #ffffff;
   text-align: center;
   padding: 80px 24px 60px;
@@ -89,7 +89,7 @@ nav a.nav-active {
 .standout {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.6rem;
-  color: #1a1a2e;
+  color: #1a3a8a;
   margin: 40px 0;
   line-height: 1.4;
 }
@@ -97,7 +97,7 @@ nav a.nav-active {
 h2 {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.4rem;
-  color: #1a1a2e;
+  color: #1a3a8a;
   margin: 48px 0 16px;
   font-weight: 700;
 }
@@ -110,7 +110,7 @@ p {
 .btn {
   display: inline-block;
   background: #c9a959;
-  color: #1a1a2e;
+  color: #1a3a8a;
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
