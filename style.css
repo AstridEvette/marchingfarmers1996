@@ -131,6 +131,22 @@ p {
   margin-bottom: 20px;
 }
 
+/* Help list */
+.help-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.help-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.help-list li:last-child {
+  border-bottom: none;
+}
+
 /* Button */
 .btn {
   display: inline-block;
