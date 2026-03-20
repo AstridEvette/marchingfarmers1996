@@ -73,6 +73,24 @@ nav a.nav-active {
   letter-spacing: 0.5px;
 }
 
+/* Logos */
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+}
+
+.logo-small {
+  max-width: 120px;
+}
+
 /* Content */
 .content {
   max-width: 680px;
