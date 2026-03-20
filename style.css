@@ -74,22 +74,28 @@ nav a.nav-active {
   letter-spacing: 0.5px;
 }
 
-/* Logos */
-.logos {
+/* Hero wide layout (logos flanking text) */
+.hero-wide {
+  padding: 60px 24px;
+}
+
+.hero-layout {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin-bottom: 32px;
+  gap: 48px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.logo {
-  max-width: 180px;
+.hero-logo {
+  width: 200px;
   height: auto;
+  flex-shrink: 0;
 }
 
-.logo-small {
-  max-width: 120px;
+.hero-text {
+  text-align: center;
 }
 
 /* Content */
@@ -262,5 +268,14 @@ footer {
 
   .standout {
     font-size: 1.3rem;
+  }
+
+  .hero-layout {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .hero-logo {
+    width: 140px;
   }
 }
