@@ -290,6 +290,9 @@ hr {
   padding: 4px 12px;
   border-radius: 12px;
   white-space: nowrap;
+  min-width: 120px;
+  text-align: center;
+  display: inline-block;
 }
 
 .thats-me {
