@@ -241,6 +241,72 @@ hr {
   color: #0d2460;
 }
 
+/* Roll Call */
+.content-wide {
+  max-width: 780px;
+}
+
+.roll-call-key {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 24px 0 40px;
+  flex-wrap: wrap;
+}
+
+.roll-call {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.roll-call li {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.roll-call li:last-child {
+  border-bottom: none;
+}
+
+.roll-call .name {
+  font-weight: 600;
+  min-width: 120px;
+}
+
+.roll-call .instrument {
+  color: #777;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.status {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.status-coming {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-found {
+  background: #e8e4f0;
+  color: #4a3780;
+}
+
+.status-looking {
+  background: #fff3cd;
+  color: #856404;
+}
+
 /* Footer */
 footer {
   text-align: center;
