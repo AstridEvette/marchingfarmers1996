@@ -1,0 +1,171 @@
+/* Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  color: #2c2c2c;
+  background: #faf9f7;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+/* Navigation */
+header {
+  background: #1a1a2e;
+  padding: 0;
+}
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+nav a {
+  color: #c4c4c4;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 18px 28px;
+  transition: color 0.2s, background 0.2s;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+nav a.nav-active {
+  color: #ffffff;
+  border-bottom: 2px solid #c9a959;
+}
+
+/* Hero */
+.hero {
+  background: #1a1a2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 24px 60px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #c9a959;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: #b0b0b0;
+  letter-spacing: 0.5px;
+}
+
+/* Content */
+.content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+}
+
+.lead {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.standout {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.6rem;
+  color: #1a1a2e;
+  margin: 40px 0;
+  line-height: 1.4;
+}
+
+h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.4rem;
+  color: #1a1a2e;
+  margin: 48px 0 16px;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: #c9a959;
+  color: #1a1a2e;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 16px 40px;
+  margin: 32px 0;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  background: #b8953e;
+  transform: translateY(-1px);
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 48px 0;
+}
+
+/* Share note */
+.share-note {
+  font-style: italic;
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 32px 24px;
+  color: #999;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav a {
+    padding: 14px 16px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .hero {
+    padding: 60px 20px 40px;
+  }
+
+  .content {
+    padding: 40px 20px 60px;
+  }
+
+  .standout {
+    font-size: 1.3rem;
+  }
+}
